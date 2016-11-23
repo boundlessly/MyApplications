@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">APP</string>
+    <string name="a_a">注册</string>
+    <string name="a_b">输入手机号</string>
+    <string name="a_c">输入密码</string>
+    <string name="a_d">昵称</string>
+    <string name="a_e">密码</string>
+    <string name="a_f">登录</string>
+    <string name="a_g">忘记密码</string>
+    <string name="a_h">立即用手机号进行注册</string>
+    <string name="a">主界面</string>
+</resources>

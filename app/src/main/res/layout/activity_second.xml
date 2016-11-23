@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/aa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a_a"
+            android:textSize="25sp"
+            android:textColor="#006000"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/shadow">
+
+        <EditText
+            android:id="@+id/edit_three"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/a_d"
+            android:textColorHint="@color/colorGrey"
+            android:textColor="@color/colorBlack"/>
+
+        <EditText
+            android:id="@+id/edit_four"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="66dp"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/a_e"
+            android:textColorHint="@color/colorGrey"
+            android:textColor="@color/colorBlack"/>
+
+        <Button
+            android:id="@+id/botton_1"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:text="@string/a_a"
+            android:textColor="#006000"
+            android:background="@drawable/shadow"
+            android:layout_marginBottom="12dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</LinearLayout>
